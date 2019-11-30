@@ -1,0 +1,10 @@
+D:\ASP.NETCore\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.deps.json
+D:\ASP.NETCore\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.dll
+D:\ASP.NETCore\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.AssemblyInfoInputs.cache
+D:\ASP.NETCore\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.AssemblyInfo.cs
+D:\ASP.NETCore\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.csprojAssemblyReference.cache
+D:\ASP.NETCore\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.runtimeconfig.json
+D:\ASP.NETCore\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.runtimeconfig.dev.json
+D:\ASP.NETCore\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.pdb
+D:\ASP.NETCore\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.dll
+D:\ASP.NETCore\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.pdb
