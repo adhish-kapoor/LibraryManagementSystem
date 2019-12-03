@@ -1,0 +1,31 @@
+﻿
+@model Library.Models.Catalog.AssetIndexModel
+
+<div id="assets">
+	<h3>Library Catalog</h3>
+	<div id="assetsTable">
+		<table class="table table-condensed" id="catalogIndexTable">
+			<thead>
+				<tr>
+					<th>Image</th>
+					<th>Title</th>
+					<th>Author / Director</th>
+					<th>Dewey Call Number</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach(var asset in Model.Assets)
+				{
+
+				}
+			</tbody>
+		</table> 
+	</div>
+</div>
+@*@{
+	ViewBag.Title = "Library Catalog Index";
+	//ViewData["Title"] = "Index";
+}
+
+<h1>@ViewBag.Title</h1>*@
+
