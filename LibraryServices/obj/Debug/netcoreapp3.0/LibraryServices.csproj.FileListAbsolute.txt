@@ -1,0 +1,11 @@
+D:\ASP.NETCore\LibraryServices\bin\Debug\netcoreapp3.0\LibraryServices.deps.json
+D:\ASP.NETCore\LibraryServices\bin\Debug\netcoreapp3.0\LibraryServices.dll
+D:\ASP.NETCore\LibraryServices\bin\Debug\netcoreapp3.0\LibraryServices.pdb
+D:\ASP.NETCore\LibraryServices\bin\Debug\netcoreapp3.0\LibraryData.dll
+D:\ASP.NETCore\LibraryServices\bin\Debug\netcoreapp3.0\LibraryData.pdb
+D:\ASP.NETCore\LibraryServices\obj\Debug\netcoreapp3.0\LibraryServices.csprojAssemblyReference.cache
+D:\ASP.NETCore\LibraryServices\obj\Debug\netcoreapp3.0\LibraryServices.AssemblyInfoInputs.cache
+D:\ASP.NETCore\LibraryServices\obj\Debug\netcoreapp3.0\LibraryServices.AssemblyInfo.cs
+D:\ASP.NETCore\LibraryServices\obj\Debug\netcoreapp3.0\LibraryServices.csproj.CopyComplete
+D:\ASP.NETCore\LibraryServices\obj\Debug\netcoreapp3.0\LibraryServices.dll
+D:\ASP.NETCore\LibraryServices\obj\Debug\netcoreapp3.0\LibraryServices.pdb

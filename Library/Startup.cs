@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using LibraryServices;
 
 namespace Library
 {
@@ -26,6 +27,11 @@ namespace Library
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // for catalog controller
+            services.AddSingleton(Configuration);
+            services.AddScoped<ILibraryAsset, LibraryAssetService>();
+            services.AddScoped<ICheckout, CheckoutService>();
 
             //LibraryConnection from appsettings.json 
             services.AddDbContext<LibraryContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
@@ -55,7 +61,7 @@ namespace Library
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Catalog}/{action=Index}/{id?}");
             });
         }
     }

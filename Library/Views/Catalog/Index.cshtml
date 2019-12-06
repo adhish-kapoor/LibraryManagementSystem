@@ -14,18 +14,27 @@
 				</tr>
 			</thead>
 			<tbody>
-				@foreach(var asset in Model.Assets)
+				@foreach (var asset in Model.Assets)
 				{
-
+					<tr class="assetRow">
+						<td class="">
+							<a asp-controller="Catalog" asp-action="Detail" asp-route-id="@asset.Id">
+								<img src="@asset.ImageUrl" class="imageCell" />
+							</a>
+						</td>
+						<td class="">@asset.Title</td>
+						<td class="">@asset.AuthorOrDirector</td>
+						<td class="">@asset.DeweyCallNumber</td>
+					</tr>
 				}
 			</tbody>
-		</table> 
+		</table>
 	</div>
 </div>
 @*@{
-	ViewBag.Title = "Library Catalog Index";
-	//ViewData["Title"] = "Index";
-}
+		ViewBag.Title = "Library Catalog Index";
+		//ViewData["Title"] = "Index";
+	}
 
-<h1>@ViewBag.Title</h1>*@
+	<h1>@ViewBag.Title</h1>*@
 
